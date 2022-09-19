@@ -37,13 +37,14 @@
       position: relative;
     }
     .product {
-      width: 290px;
+      max-width: 290px;
       margin: 0;
     }
-
     .product img {
-      width: 290px;
-      height: 290px;
+      display: block;
+      object-fit: cover;
+      max-width: 100%;
+      max-height: 290px;
       border-radius: 10px;
     }
     .image-product {
@@ -87,7 +88,7 @@
     .details {
       padding: 20px;
       padding-bottom: 0;
-      width: 290px;
+      max-width: 290px;
     }
     h1 {
       line-height: 45px;
